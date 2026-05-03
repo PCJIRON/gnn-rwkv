@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pth
+*.txt
+vocab.json
+.DS_Store
+*.pyc
