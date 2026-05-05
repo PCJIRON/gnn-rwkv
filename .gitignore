@@ -5,3 +5,7 @@ __pycache__/
 vocab.json
 .DS_Store
 *.pyc
+
+# Ralph - AI agent loop files
+.ralph*
+.opencode/plugin/ralph-write-guardrail.ts

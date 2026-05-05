@@ -1,0 +1,35 @@
+{
+  "tasks": {
+    "task-1777996738465-e8pyvj": {
+      "taskId": "task-1777996738465-e8pyvj",
+      "type": "implementation",
+      "description": "Update RWKVTokenMixer in src/gnn_rwkv_story_gen.py",
+      "priority": "normal",
+      "status": "in_progress",
+      "progress": 0,
+      "assignedTo": [
+        "agent-1777996222685-0qyh7r"
+      ],
+      "tags": [],
+      "createdAt": "2026-05-05T15:58:58.465Z",
+      "startedAt": "2026-05-05T15:59:02.394Z",
+      "completedAt": null
+    },
+    "task-1777998073064-bkf29z": {
+      "taskId": "task-1777998073064-bkf29z",
+      "type": "implementation",
+      "description": "Apply DeepSeek's recommendations: reduce dims, optimize LIF, and fix batch processing",
+      "priority": "normal",
+      "status": "in_progress",
+      "progress": 0,
+      "assignedTo": [
+        "agent-1777996222685-0qyh7r"
+      ],
+      "tags": [],
+      "createdAt": "2026-05-05T16:21:13.064Z",
+      "startedAt": "2026-05-05T16:21:19.532Z",
+      "completedAt": null
+    }
+  },
+  "version": "3.0.0"
+}

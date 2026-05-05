@@ -1,0 +1,15 @@
+{
+  "source_file": "base_language_corpus.txt",
+  "epochs": 10,
+  "max_sentences": null,
+  "vocab_size": 140,
+  "new_tokens": 140,
+  "reused_tokens": 0,
+  "dim": 96,
+  "layers": 2,
+  "num_nodes": 12,
+  "context": 128,
+  "tokenizer": "hybrid_v1",
+  "router": "plain_rwkv_gnn_lif_v1",
+  "reset_existing": true
+}

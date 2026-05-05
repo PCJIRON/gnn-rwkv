@@ -1,0 +1,1 @@
+{"nodes": [{"id": "CPUEfficientTrainer", "label": "CPU Efficient Trainer", "file_type": "code", "source_file": "src/train_efficient_cpu.py"}, {"id": "train_efficient_cpu", "label": "CPU Efficient Training Function", "file_type": "code", "source_file": "src/train_efficient_cpu.py"}], "edges": [], "hyperedges": []}

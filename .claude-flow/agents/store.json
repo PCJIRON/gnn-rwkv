@@ -1,0 +1,19 @@
+{
+  "agents": {
+    "agent-1777996222685-0qyh7r": {
+      "agentId": "agent-1777996222685-0qyh7r",
+      "agentType": "architect",
+      "status": "active",
+      "health": 1,
+      "taskCount": 0,
+      "config": {
+        "provider": "Analyze the model architecture in src/. Focus on: 1. Core RWKV integration with GNN. 2. SNN (Spiking Neural Network) methodology using LIF neurons. 3. Node clustering/community logic for fast query/training. Compare it with Graphify communities. Provide a technical audit report."
+      },
+      "createdAt": "2026-05-05T15:50:22.685Z",
+      "model": "opus",
+      "modelRoutedBy": "default",
+      "currentTask": "task-1777998073064-bkf29z"
+    }
+  },
+  "version": "3.0.0"
+}

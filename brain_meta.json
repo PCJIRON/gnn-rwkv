@@ -1,0 +1,8 @@
+{
+  "dim": 128,
+  "layers": 3,
+  "num_nodes": 12,
+  "context": 128,
+  "vocab_size": 1719,
+  "tokenizer": "hybrid_v1"
+}

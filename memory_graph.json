@@ -1,0 +1,1862 @@
+{
+  "version": "semantic_memory_v1",
+  "nodes": [
+    {
+      "id": "delhi",
+      "label": "delhi",
+      "kind": "concept",
+      "aliases": [],
+      "count": 603
+    },
+    {
+      "id": "city",
+      "label": "city",
+      "kind": "concept",
+      "aliases": [],
+      "count": 662
+    },
+    {
+      "id": "india",
+      "label": "india",
+      "kind": "concept",
+      "aliases": [],
+      "count": 363
+    },
+    {
+      "id": "country",
+      "label": "country",
+      "kind": "concept",
+      "aliases": [],
+      "count": 422
+    },
+    {
+      "id": "artificial_intelligence",
+      "label": "artificial intelligence",
+      "kind": "concept",
+      "aliases": [],
+      "count": 3
+    },
+    {
+      "id": "field_of_computer_science",
+      "label": "field of computer science",
+      "kind": "concept",
+      "aliases": [],
+      "count": 2
+    },
+    {
+      "id": "building_machines_that_can_perform_intelligent_tasks",
+      "label": "building machines that can perform intelligent tasks",
+      "kind": "concept",
+      "aliases": [],
+      "count": 1
+    },
+    {
+      "id": "machine_learning",
+      "label": "machine learning",
+      "kind": "concept",
+      "aliases": [],
+      "count": 2
+    },
+    {
+      "id": "branch_of_artificial_intelligence",
+      "label": "branch of artificial intelligence",
+      "kind": "concept",
+      "aliases": [],
+      "count": 2
+    },
+    {
+      "id": "java",
+      "label": "java",
+      "kind": "concept",
+      "aliases": [],
+      "count": 603
+    },
+    {
+      "id": "programming_language",
+      "label": "programming language",
+      "kind": "concept",
+      "aliases": [],
+      "count": 3
+    },
+    {
+      "id": "software_development",
+      "label": "software development",
+      "kind": "concept",
+      "aliases": [],
+      "count": 2
+    },
+    {
+      "id": "user",
+      "label": "user",
+      "kind": "concept",
+      "aliases": [],
+      "count": 1740
+    },
+    {
+      "id": "what",
+      "label": "what",
+      "kind": "concept",
+      "aliases": [],
+      "count": 1020
+    },
+    {
+      "id": "graph",
+      "label": "graph",
+      "kind": "concept",
+      "aliases": [],
+      "count": 540
+    },
+    {
+      "id": "memory",
+      "label": "memory",
+      "kind": "concept",
+      "aliases": [],
+      "count": 480
+    },
+    {
+      "id": "brain",
+      "label": "brain",
+      "kind": "concept",
+      "aliases": [],
+      "count": 1800
+    },
+    {
+      "id": "stores",
+      "label": "stores",
+      "kind": "concept",
+      "aliases": [],
+      "count": 180
+    },
+    {
+      "id": "facts",
+      "label": "facts",
+      "kind": "concept",
+      "aliases": [],
+      "count": 480
+    },
+    {
+      "id": "connected",
+      "label": "connected",
+      "kind": "concept",
+      "aliases": [],
+      "count": 180
+    },
+    {
+      "id": "nodes",
+      "label": "nodes",
+      "kind": "concept",
+      "aliases": [],
+      "count": 180
+    },
+    {
+      "id": "relations",
+      "label": "relations.",
+      "kind": "concept",
+      "aliases": [],
+      "count": 120
+    },
+    {
+      "id": "user_what",
+      "label": "user what",
+      "kind": "concept",
+      "aliases": [],
+      "count": 240
+    },
+    {
+      "id": "brain_country",
+      "label": "brain country",
+      "kind": "concept",
+      "aliases": [],
+      "count": 121
+    },
+    {
+      "id": "region_own_government",
+      "label": "region own government",
+      "kind": "concept",
+      "aliases": [],
+      "count": 120
+    },
+    {
+      "id": "region",
+      "label": "region",
+      "kind": "concept",
+      "aliases": [],
+      "count": 180
+    },
+    {
+      "id": "own",
+      "label": "own",
+      "kind": "concept",
+      "aliases": [],
+      "count": 180
+    },
+    {
+      "id": "government",
+      "label": "government",
+      "kind": "concept",
+      "aliases": [],
+      "count": 180
+    },
+    {
+      "id": "territory",
+      "label": "territory.",
+      "kind": "concept",
+      "aliases": [],
+      "count": 120
+    },
+    {
+      "id": "explain",
+      "label": "explain",
+      "kind": "concept",
+      "aliases": [],
+      "count": 540
+    },
+    {
+      "id": "brain_java",
+      "label": "brain java",
+      "kind": "concept",
+      "aliases": [],
+      "count": 121
+    },
+    {
+      "id": "programming_language_used_software",
+      "label": "programming language used software",
+      "kind": "concept",
+      "aliases": [],
+      "count": 122
+    },
+    {
+      "id": "programming",
+      "label": "programming",
+      "kind": "concept",
+      "aliases": [],
+      "count": 191
+    },
+    {
+      "id": "language",
+      "label": "language",
+      "kind": "concept",
+      "aliases": [],
+      "count": 181
+    },
+    {
+      "id": "used",
+      "label": "used",
+      "kind": "concept",
+      "aliases": [],
+      "count": 180
+    },
+    {
+      "id": "software",
+      "label": "software",
+      "kind": "concept",
+      "aliases": [],
+      "count": 181
+    },
+    {
+      "id": "development",
+      "label": "development.",
+      "kind": "concept",
+      "aliases": [],
+      "count": 120
+    },
+    {
+      "id": "brain_here",
+      "label": "brain here",
+      "kind": "concept",
+      "aliases": [],
+      "count": 240
+    },
+    {
+      "id": "simple_java_prints_message",
+      "label": "simple java prints message",
+      "kind": "concept",
+      "aliases": [],
+      "count": 121
+    },
+    {
+      "id": "here",
+      "label": "here",
+      "kind": "concept",
+      "aliases": [],
+      "count": 360
+    },
+    {
+      "id": "simple",
+      "label": "simple",
+      "kind": "concept",
+      "aliases": [],
+      "count": 720
+    },
+    {
+      "id": "prints",
+      "label": "prints",
+      "kind": "concept",
+      "aliases": [],
+      "count": 180
+    },
+    {
+      "id": "message",
+      "label": "message.",
+      "kind": "concept",
+      "aliases": [],
+      "count": 120
+    },
+    {
+      "id": "clean",
+      "label": "clean",
+      "kind": "concept",
+      "aliases": [],
+      "count": 300
+    },
+    {
+      "id": "should",
+      "label": "should",
+      "kind": "concept",
+      "aliases": [],
+      "count": 180
+    },
+    {
+      "id": "readable",
+      "label": "readable",
+      "kind": "concept",
+      "aliases": [],
+      "count": 180
+    },
+    {
+      "id": "easy",
+      "label": "easy",
+      "kind": "concept",
+      "aliases": [],
+      "count": 180
+    },
+    {
+      "id": "maintain",
+      "label": "maintain.",
+      "kind": "concept",
+      "aliases": [],
+      "count": 120
+    },
+    {
+      "id": "brain_city",
+      "label": "brain city",
+      "kind": "concept",
+      "aliases": [],
+      "count": 121
+    },
+    {
+      "id": "large_human_settlement",
+      "label": "large human settlement",
+      "kind": "concept",
+      "aliases": [],
+      "count": 120
+    },
+    {
+      "id": "large",
+      "label": "large",
+      "kind": "concept",
+      "aliases": [],
+      "count": 180
+    },
+    {
+      "id": "human",
+      "label": "human",
+      "kind": "concept",
+      "aliases": [],
+      "count": 240
+    },
+    {
+      "id": "settlement",
+      "label": "settlement.",
+      "kind": "concept",
+      "aliases": [],
+      "count": 120
+    },
+    {
+      "id": "brain_delhi",
+      "label": "brain delhi",
+      "kind": "concept",
+      "aliases": [],
+      "count": 181
+    },
+    {
+      "id": "located",
+      "label": "located",
+      "kind": "concept",
+      "aliases": [],
+      "count": 181
+    },
+    {
+      "id": "artificial",
+      "label": "artificial",
+      "kind": "concept",
+      "aliases": [],
+      "count": 541
+    },
+    {
+      "id": "intelligence",
+      "label": "intelligence",
+      "kind": "concept",
+      "aliases": [],
+      "count": 481
+    },
+    {
+      "id": "field",
+      "label": "field",
+      "kind": "concept",
+      "aliases": [],
+      "count": 180
+    },
+    {
+      "id": "building",
+      "label": "building",
+      "kind": "concept",
+      "aliases": [],
+      "count": 180
+    },
+    {
+      "id": "systems",
+      "label": "systems",
+      "kind": "concept",
+      "aliases": [],
+      "count": 360
+    },
+    {
+      "id": "can",
+      "label": "can",
+      "kind": "concept",
+      "aliases": [],
+      "count": 360
+    },
+    {
+      "id": "perform",
+      "label": "perform",
+      "kind": "concept",
+      "aliases": [],
+      "count": 180
+    },
+    {
+      "id": "tasks",
+      "label": "tasks",
+      "kind": "concept",
+      "aliases": [],
+      "count": 180
+    },
+    {
+      "id": "normally",
+      "label": "normally",
+      "kind": "concept",
+      "aliases": [],
+      "count": 180
+    },
+    {
+      "id": "require",
+      "label": "require",
+      "kind": "concept",
+      "aliases": [],
+      "count": 120
+    },
+    {
+      "id": "how",
+      "label": "how",
+      "kind": "concept",
+      "aliases": [],
+      "count": 300
+    },
+    {
+      "id": "you",
+      "label": "you",
+      "kind": "concept",
+      "aliases": [],
+      "count": 480
+    },
+    {
+      "id": "learn",
+      "label": "learn",
+      "kind": "concept",
+      "aliases": [],
+      "count": 360
+    },
+    {
+      "id": "new",
+      "label": "new",
+      "kind": "concept",
+      "aliases": [],
+      "count": 360
+    },
+    {
+      "id": "store",
+      "label": "store",
+      "kind": "concept",
+      "aliases": [],
+      "count": 180
+    },
+    {
+      "id": "use",
+      "label": "use",
+      "kind": "concept",
+      "aliases": [],
+      "count": 180
+    },
+    {
+      "id": "them",
+      "label": "them",
+      "kind": "concept",
+      "aliases": [],
+      "count": 180
+    },
+    {
+      "id": "context",
+      "label": "context",
+      "kind": "concept",
+      "aliases": [],
+      "count": 180
+    },
+    {
+      "id": "when",
+      "label": "when",
+      "kind": "concept",
+      "aliases": [],
+      "count": 180
+    },
+    {
+      "id": "generating",
+      "label": "generating",
+      "kind": "concept",
+      "aliases": [],
+      "count": 120
+    },
+    {
+      "id": "answers",
+      "label": "answers.",
+      "kind": "concept",
+      "aliases": [],
+      "count": 60
+    },
+    {
+      "id": "machine",
+      "label": "machine",
+      "kind": "concept",
+      "aliases": [],
+      "count": 361
+    },
+    {
+      "id": "learning",
+      "label": "learning",
+      "kind": "concept",
+      "aliases": [],
+      "count": 301
+    },
+    {
+      "id": "brain_machine_learning",
+      "label": "brain machine learning",
+      "kind": "concept",
+      "aliases": [],
+      "count": 121
+    },
+    {
+      "id": "branch_artificial_intelligence_where",
+      "label": "branch artificial intelligence where",
+      "kind": "concept",
+      "aliases": [],
+      "count": 121
+    },
+    {
+      "id": "branch",
+      "label": "branch",
+      "kind": "concept",
+      "aliases": [],
+      "count": 180
+    },
+    {
+      "id": "where",
+      "label": "where",
+      "kind": "concept",
+      "aliases": [],
+      "count": 360
+    },
+    {
+      "id": "patterns",
+      "label": "patterns",
+      "kind": "concept",
+      "aliases": [],
+      "count": 180
+    },
+    {
+      "id": "data",
+      "label": "data.",
+      "kind": "concept",
+      "aliases": [],
+      "count": 120
+    },
+    {
+      "id": "give",
+      "label": "give",
+      "kind": "concept",
+      "aliases": [],
+      "count": 180
+    },
+    {
+      "id": "short",
+      "label": "short",
+      "kind": "concept",
+      "aliases": [],
+      "count": 360
+    },
+    {
+      "id": "answer",
+      "label": "answer",
+      "kind": "concept",
+      "aliases": [],
+      "count": 240
+    },
+    {
+      "id": "short_answer",
+      "label": "short answer",
+      "kind": "concept",
+      "aliases": [],
+      "count": 120
+    },
+    {
+      "id": "hello",
+      "label": "hello",
+      "kind": "concept",
+      "aliases": [],
+      "count": 240
+    },
+    {
+      "id": "help",
+      "label": "help",
+      "kind": "concept",
+      "aliases": [],
+      "count": 180
+    },
+    {
+      "id": "hi",
+      "label": "hi.",
+      "kind": "concept",
+      "aliases": [],
+      "count": 120
+    },
+    {
+      "id": "would",
+      "label": "would",
+      "kind": "concept",
+      "aliases": [],
+      "count": 180
+    },
+    {
+      "id": "like",
+      "label": "like",
+      "kind": "concept",
+      "aliases": [],
+      "count": 180
+    },
+    {
+      "id": "talk",
+      "label": "talk",
+      "kind": "concept",
+      "aliases": [],
+      "count": 180
+    },
+    {
+      "id": "about",
+      "label": "about",
+      "kind": "concept",
+      "aliases": [],
+      "count": 120
+    },
+    {
+      "id": "words",
+      "label": "words",
+      "kind": "concept",
+      "aliases": [],
+      "count": 240
+    },
+    {
+      "id": "will",
+      "label": "will",
+      "kind": "concept",
+      "aliases": [],
+      "count": 180
+    },
+    {
+      "id": "geography",
+      "label": "geography",
+      "kind": "cluster_hint",
+      "aliases": [],
+      "count": 9
+    },
+    {
+      "id": "ai",
+      "label": "ai",
+      "kind": "cluster_hint",
+      "aliases": [],
+      "count": 13
+    }
+  ],
+  "edges": [
+    {
+      "source": "delhi",
+      "target": "city",
+      "relation": "is_a",
+      "evidence": "",
+      "confidence": "SEEDED"
+    },
+    {
+      "source": "delhi",
+      "target": "india",
+      "relation": "located_in",
+      "evidence": "",
+      "confidence": "SEEDED"
+    },
+    {
+      "source": "india",
+      "target": "country",
+      "relation": "is_a",
+      "evidence": "",
+      "confidence": "SEEDED"
+    },
+    {
+      "source": "artificial_intelligence",
+      "target": "field_of_computer_science",
+      "relation": "is_a",
+      "evidence": "",
+      "confidence": "SEEDED"
+    },
+    {
+      "source": "artificial_intelligence",
+      "target": "building_machines_that_can_perform_intelligent_tasks",
+      "relation": "used_for",
+      "evidence": "",
+      "confidence": "SEEDED"
+    },
+    {
+      "source": "machine_learning",
+      "target": "branch_of_artificial_intelligence",
+      "relation": "is_a",
+      "evidence": "",
+      "confidence": "SEEDED"
+    },
+    {
+      "source": "java",
+      "target": "programming_language",
+      "relation": "is_a",
+      "evidence": "",
+      "confidence": "SEEDED"
+    },
+    {
+      "source": "java",
+      "target": "software_development",
+      "relation": "used_for",
+      "evidence": "",
+      "confidence": "SEEDED"
+    },
+    {
+      "source": "user",
+      "target": "what",
+      "relation": "related_to",
+      "evidence": "user: what is graph memory?",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "what",
+      "target": "graph",
+      "relation": "related_to",
+      "evidence": "user: what is graph memory?",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "graph",
+      "target": "memory",
+      "relation": "related_to",
+      "evidence": "user: what is graph memory?",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "brain",
+      "target": "graph",
+      "relation": "related_to",
+      "evidence": "brain: graph memory stores facts as connected nodes and relations.",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "memory",
+      "target": "stores",
+      "relation": "related_to",
+      "evidence": "brain: graph memory stores facts as connected nodes and relations.",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "stores",
+      "target": "facts",
+      "relation": "related_to",
+      "evidence": "brain: graph memory stores facts as connected nodes and relations.",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "facts",
+      "target": "connected",
+      "relation": "related_to",
+      "evidence": "brain: graph memory stores facts as connected nodes and relations.",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "connected",
+      "target": "nodes",
+      "relation": "related_to",
+      "evidence": "brain: graph memory stores facts as connected nodes and relations.",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "nodes",
+      "target": "relations",
+      "relation": "related_to",
+      "evidence": "brain: graph memory stores facts as connected nodes and relations.",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "user_what",
+      "target": "country",
+      "relation": "is_a",
+      "evidence": "user: what is a country?",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "what",
+      "target": "country",
+      "relation": "related_to",
+      "evidence": "user: what is a country?",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "brain_country",
+      "target": "region_own_government",
+      "relation": "is_a",
+      "evidence": "brain: a country is a region with its own government and territory.",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "brain",
+      "target": "country",
+      "relation": "related_to",
+      "evidence": "brain: a country is a region with its own government and territory.",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "country",
+      "target": "region",
+      "relation": "related_to",
+      "evidence": "brain: a country is a region with its own government and territory.",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "region",
+      "target": "own",
+      "relation": "related_to",
+      "evidence": "brain: a country is a region with its own government and territory.",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "own",
+      "target": "government",
+      "relation": "related_to",
+      "evidence": "brain: a country is a region with its own government and territory.",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "government",
+      "target": "territory",
+      "relation": "related_to",
+      "evidence": "brain: a country is a region with its own government and territory.",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "user",
+      "target": "explain",
+      "relation": "related_to",
+      "evidence": "user: explain java",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "explain",
+      "target": "java",
+      "relation": "related_to",
+      "evidence": "user: explain java",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "brain_java",
+      "target": "programming_language_used_software",
+      "relation": "is_a",
+      "evidence": "brain: java is a programming language used for software development.",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "brain",
+      "target": "java",
+      "relation": "related_to",
+      "evidence": "brain: java is a programming language used for software development.",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "java",
+      "target": "programming",
+      "relation": "related_to",
+      "evidence": "brain: java is a programming language used for software development.",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "programming",
+      "target": "language",
+      "relation": "related_to",
+      "evidence": "brain: java is a programming language used for software development.",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "language",
+      "target": "used",
+      "relation": "related_to",
+      "evidence": "brain: java is a programming language used for software development.",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "used",
+      "target": "software",
+      "relation": "related_to",
+      "evidence": "brain: java is a programming language used for software development.",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "software",
+      "target": "development",
+      "relation": "related_to",
+      "evidence": "brain: java is a programming language used for software development.",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "user",
+      "target": "java",
+      "relation": "related_to",
+      "evidence": "user: write a java program",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "brain_here",
+      "target": "simple_java_prints_message",
+      "relation": "is_a",
+      "evidence": "brain: here is a simple java program that prints a message.",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "brain",
+      "target": "here",
+      "relation": "related_to",
+      "evidence": "brain: here is a simple java program that prints a message.",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "here",
+      "target": "simple",
+      "relation": "related_to",
+      "evidence": "brain: here is a simple java program that prints a message.",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "simple",
+      "target": "java",
+      "relation": "related_to",
+      "evidence": "brain: here is a simple java program that prints a message.",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "java",
+      "target": "prints",
+      "relation": "related_to",
+      "evidence": "brain: here is a simple java program that prints a message.",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "prints",
+      "target": "message",
+      "relation": "related_to",
+      "evidence": "brain: here is a simple java program that prints a message.",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "user",
+      "target": "clean",
+      "relation": "related_to",
+      "evidence": "user: write clean code",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "brain",
+      "target": "clean",
+      "relation": "related_to",
+      "evidence": "brain: clean code should be simple, readable, and easy to maintain.",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "clean",
+      "target": "should",
+      "relation": "related_to",
+      "evidence": "brain: clean code should be simple, readable, and easy to maintain.",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "should",
+      "target": "simple",
+      "relation": "related_to",
+      "evidence": "brain: clean code should be simple, readable, and easy to maintain.",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "simple",
+      "target": "readable",
+      "relation": "related_to",
+      "evidence": "brain: clean code should be simple, readable, and easy to maintain.",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "readable",
+      "target": "easy",
+      "relation": "related_to",
+      "evidence": "brain: clean code should be simple, readable, and easy to maintain.",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "easy",
+      "target": "maintain",
+      "relation": "related_to",
+      "evidence": "brain: clean code should be simple, readable, and easy to maintain.",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "user_what",
+      "target": "city",
+      "relation": "is_a",
+      "evidence": "user: what is a city?",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "what",
+      "target": "city",
+      "relation": "related_to",
+      "evidence": "user: what is a city?",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "brain_city",
+      "target": "large_human_settlement",
+      "relation": "is_a",
+      "evidence": "brain: a city is a large human settlement.",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "brain",
+      "target": "city",
+      "relation": "related_to",
+      "evidence": "brain: a city is a large human settlement.",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "city",
+      "target": "large",
+      "relation": "related_to",
+      "evidence": "brain: a city is a large human settlement.",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "large",
+      "target": "human",
+      "relation": "related_to",
+      "evidence": "brain: a city is a large human settlement.",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "human",
+      "target": "settlement",
+      "relation": "related_to",
+      "evidence": "brain: a city is a large human settlement.",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "user",
+      "target": "delhi",
+      "relation": "related_to",
+      "evidence": "user: delhi kahan hai?",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "brain_delhi",
+      "target": "india",
+      "relation": "located_in",
+      "evidence": "brain: delhi is located in india.",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "brain",
+      "target": "delhi",
+      "relation": "related_to",
+      "evidence": "brain: delhi is located in india.",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "delhi",
+      "target": "located",
+      "relation": "related_to",
+      "evidence": "brain: delhi is located in india.",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "located",
+      "target": "india",
+      "relation": "related_to",
+      "evidence": "brain: delhi is located in india.",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "what",
+      "target": "artificial",
+      "relation": "related_to",
+      "evidence": "user: what is artificial intelligence?",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "artificial",
+      "target": "intelligence",
+      "relation": "related_to",
+      "evidence": "user: what is artificial intelligence?",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "brain",
+      "target": "artificial",
+      "relation": "related_to",
+      "evidence": "brain: artificial intelligence is the field of building systems that can perform tasks that normally require human intelligence.",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "intelligence",
+      "target": "field",
+      "relation": "related_to",
+      "evidence": "brain: artificial intelligence is the field of building systems that can perform tasks that normally require human intelligence.",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "field",
+      "target": "building",
+      "relation": "related_to",
+      "evidence": "brain: artificial intelligence is the field of building systems that can perform tasks that normally require human intelligence.",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "building",
+      "target": "systems",
+      "relation": "related_to",
+      "evidence": "brain: artificial intelligence is the field of building systems that can perform tasks that normally require human intelligence.",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "systems",
+      "target": "can",
+      "relation": "related_to",
+      "evidence": "brain: artificial intelligence is the field of building systems that can perform tasks that normally require human intelligence.",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "can",
+      "target": "perform",
+      "relation": "related_to",
+      "evidence": "brain: artificial intelligence is the field of building systems that can perform tasks that normally require human intelligence.",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "perform",
+      "target": "tasks",
+      "relation": "related_to",
+      "evidence": "brain: artificial intelligence is the field of building systems that can perform tasks that normally require human intelligence.",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "tasks",
+      "target": "normally",
+      "relation": "related_to",
+      "evidence": "brain: artificial intelligence is the field of building systems that can perform tasks that normally require human intelligence.",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "normally",
+      "target": "require",
+      "relation": "related_to",
+      "evidence": "brain: artificial intelligence is the field of building systems that can perform tasks that normally require human intelligence.",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "user",
+      "target": "how",
+      "relation": "related_to",
+      "evidence": "user: how do you learn new facts?",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "how",
+      "target": "you",
+      "relation": "related_to",
+      "evidence": "user: how do you learn new facts?",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "you",
+      "target": "learn",
+      "relation": "related_to",
+      "evidence": "user: how do you learn new facts?",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "learn",
+      "target": "new",
+      "relation": "related_to",
+      "evidence": "user: how do you learn new facts?",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "new",
+      "target": "facts",
+      "relation": "related_to",
+      "evidence": "user: how do you learn new facts?",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "brain",
+      "target": "store",
+      "relation": "related_to",
+      "evidence": "brain: i store new facts in graph memory and use them as context when generating answers.",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "store",
+      "target": "new",
+      "relation": "related_to",
+      "evidence": "brain: i store new facts in graph memory and use them as context when generating answers.",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "facts",
+      "target": "graph",
+      "relation": "related_to",
+      "evidence": "brain: i store new facts in graph memory and use them as context when generating answers.",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "memory",
+      "target": "use",
+      "relation": "related_to",
+      "evidence": "brain: i store new facts in graph memory and use them as context when generating answers.",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "use",
+      "target": "them",
+      "relation": "related_to",
+      "evidence": "brain: i store new facts in graph memory and use them as context when generating answers.",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "them",
+      "target": "context",
+      "relation": "related_to",
+      "evidence": "brain: i store new facts in graph memory and use them as context when generating answers.",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "context",
+      "target": "when",
+      "relation": "related_to",
+      "evidence": "brain: i store new facts in graph memory and use them as context when generating answers.",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "when",
+      "target": "generating",
+      "relation": "related_to",
+      "evidence": "brain: i store new facts in graph memory and use them as context when generating answers.",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "what",
+      "target": "machine",
+      "relation": "related_to",
+      "evidence": "user: what is machine learning?",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "machine",
+      "target": "learning",
+      "relation": "related_to",
+      "evidence": "user: what is machine learning?",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "brain_machine_learning",
+      "target": "branch_artificial_intelligence_where",
+      "relation": "is_a",
+      "evidence": "brain: machine learning is a branch of artificial intelligence where systems learn patterns from data.",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "brain",
+      "target": "machine",
+      "relation": "related_to",
+      "evidence": "brain: machine learning is a branch of artificial intelligence where systems learn patterns from data.",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "learning",
+      "target": "branch",
+      "relation": "related_to",
+      "evidence": "brain: machine learning is a branch of artificial intelligence where systems learn patterns from data.",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "branch",
+      "target": "artificial",
+      "relation": "related_to",
+      "evidence": "brain: machine learning is a branch of artificial intelligence where systems learn patterns from data.",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "intelligence",
+      "target": "where",
+      "relation": "related_to",
+      "evidence": "brain: machine learning is a branch of artificial intelligence where systems learn patterns from data.",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "where",
+      "target": "systems",
+      "relation": "related_to",
+      "evidence": "brain: machine learning is a branch of artificial intelligence where systems learn patterns from data.",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "systems",
+      "target": "learn",
+      "relation": "related_to",
+      "evidence": "brain: machine learning is a branch of artificial intelligence where systems learn patterns from data.",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "learn",
+      "target": "patterns",
+      "relation": "related_to",
+      "evidence": "brain: machine learning is a branch of artificial intelligence where systems learn patterns from data.",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "patterns",
+      "target": "data",
+      "relation": "related_to",
+      "evidence": "brain: machine learning is a branch of artificial intelligence where systems learn patterns from data.",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "user",
+      "target": "where",
+      "relation": "related_to",
+      "evidence": "user: where is delhi?",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "where",
+      "target": "delhi",
+      "relation": "related_to",
+      "evidence": "user: where is delhi?",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "brain_delhi",
+      "target": "city",
+      "relation": "is_a",
+      "evidence": "brain: delhi is a city in india.",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "delhi",
+      "target": "city",
+      "relation": "related_to",
+      "evidence": "brain: delhi is a city in india.",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "city",
+      "target": "india",
+      "relation": "related_to",
+      "evidence": "brain: delhi is a city in india.",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "user",
+      "target": "give",
+      "relation": "related_to",
+      "evidence": "user: give a short answer",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "give",
+      "target": "short",
+      "relation": "related_to",
+      "evidence": "user: give a short answer",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "short",
+      "target": "answer",
+      "relation": "related_to",
+      "evidence": "user: give a short answer",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "brain_here",
+      "target": "short_answer",
+      "relation": "is_a",
+      "evidence": "brain: here is a short answer.",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "here",
+      "target": "short",
+      "relation": "related_to",
+      "evidence": "brain: here is a short answer.",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "user",
+      "target": "hello",
+      "relation": "related_to",
+      "evidence": "user: hello",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "brain",
+      "target": "hello",
+      "relation": "related_to",
+      "evidence": "brain: hello.",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "how",
+      "target": "can",
+      "relation": "related_to",
+      "evidence": "how can i help you?",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "can",
+      "target": "help",
+      "relation": "related_to",
+      "evidence": "how can i help you?",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "help",
+      "target": "you",
+      "relation": "related_to",
+      "evidence": "how can i help you?",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "brain",
+      "target": "hi",
+      "relation": "related_to",
+      "evidence": "brain: hi.",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "what",
+      "target": "would",
+      "relation": "related_to",
+      "evidence": "what would you like to talk about?",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "would",
+      "target": "you",
+      "relation": "related_to",
+      "evidence": "what would you like to talk about?",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "you",
+      "target": "like",
+      "relation": "related_to",
+      "evidence": "what would you like to talk about?",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "like",
+      "target": "talk",
+      "relation": "related_to",
+      "evidence": "what would you like to talk about?",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "talk",
+      "target": "about",
+      "relation": "related_to",
+      "evidence": "what would you like to talk about?",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "explain",
+      "target": "simple",
+      "relation": "related_to",
+      "evidence": "user: explain in simple words",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "simple",
+      "target": "words",
+      "relation": "related_to",
+      "evidence": "user: explain in simple words",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "brain",
+      "target": "will",
+      "relation": "related_to",
+      "evidence": "brain: i will explain it in simple words.",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "will",
+      "target": "explain",
+      "relation": "related_to",
+      "evidence": "brain: i will explain it in simple words.",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "delhi",
+      "target": "geography",
+      "relation": "related_to",
+      "evidence": "",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "city",
+      "target": "geography",
+      "relation": "related_to",
+      "evidence": "",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "india",
+      "target": "geography",
+      "relation": "related_to",
+      "evidence": "",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "country",
+      "target": "geography",
+      "relation": "related_to",
+      "evidence": "",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "brain_country",
+      "target": "geography",
+      "relation": "related_to",
+      "evidence": "",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "brain_city",
+      "target": "geography",
+      "relation": "related_to",
+      "evidence": "",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "brain_delhi",
+      "target": "geography",
+      "relation": "related_to",
+      "evidence": "",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "located",
+      "target": "geography",
+      "relation": "related_to",
+      "evidence": "",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "field_of_computer_science",
+      "target": "programming",
+      "relation": "related_to",
+      "evidence": "",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "programming_language",
+      "target": "programming",
+      "relation": "related_to",
+      "evidence": "",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "software_development",
+      "target": "programming",
+      "relation": "related_to",
+      "evidence": "",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "brain_java",
+      "target": "programming",
+      "relation": "related_to",
+      "evidence": "",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "programming_language_used_software",
+      "target": "programming",
+      "relation": "related_to",
+      "evidence": "",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "software",
+      "target": "programming",
+      "relation": "related_to",
+      "evidence": "",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "simple_java_prints_message",
+      "target": "programming",
+      "relation": "related_to",
+      "evidence": "",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "artificial_intelligence",
+      "target": "ai",
+      "relation": "related_to",
+      "evidence": "",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "machine_learning",
+      "target": "ai",
+      "relation": "related_to",
+      "evidence": "",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "branch_of_artificial_intelligence",
+      "target": "ai",
+      "relation": "related_to",
+      "evidence": "",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "programming_language",
+      "target": "ai",
+      "relation": "related_to",
+      "evidence": "",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "programming_language_used_software",
+      "target": "ai",
+      "relation": "related_to",
+      "evidence": "",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "language",
+      "target": "ai",
+      "relation": "related_to",
+      "evidence": "",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "artificial",
+      "target": "ai",
+      "relation": "related_to",
+      "evidence": "",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "intelligence",
+      "target": "ai",
+      "relation": "related_to",
+      "evidence": "",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "machine",
+      "target": "ai",
+      "relation": "related_to",
+      "evidence": "",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "learning",
+      "target": "ai",
+      "relation": "related_to",
+      "evidence": "",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "brain_machine_learning",
+      "target": "ai",
+      "relation": "related_to",
+      "evidence": "",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "branch_artificial_intelligence_where",
+      "target": "ai",
+      "relation": "related_to",
+      "evidence": "",
+      "confidence": "INFERRED"
+    }
+  ],
+  "communities": {
+    "0": [
+      "artificial_intelligence",
+      "brain_here",
+      "brain_java",
+      "building_machines_that_can_perform_intelligent_tasks",
+      "development",
+      "field_of_computer_science",
+      "java",
+      "language",
+      "message",
+      "prints",
+      "programming",
+      "programming_language",
+      "programming_language_used_software",
+      "short_answer",
+      "simple_java_prints_message",
+      "software",
+      "software_development",
+      "used"
+    ],
+    "1": [
+      "answer",
+      "clean",
+      "easy",
+      "explain",
+      "give",
+      "hello",
+      "here",
+      "maintain",
+      "readable",
+      "short",
+      "should",
+      "simple",
+      "user",
+      "will",
+      "words"
+    ],
+    "2": [
+      "brain",
+      "brain_city",
+      "brain_country",
+      "brain_delhi",
+      "city",
+      "country",
+      "delhi",
+      "geography",
+      "hi",
+      "india",
+      "large_human_settlement",
+      "located",
+      "region_own_government",
+      "user_what"
+    ],
+    "3": [
+      "connected",
+      "context",
+      "facts",
+      "generating",
+      "graph",
+      "memory",
+      "nodes",
+      "relations",
+      "stores",
+      "them",
+      "use",
+      "when"
+    ],
+    "4": [
+      "about",
+      "can",
+      "help",
+      "how",
+      "like",
+      "normally",
+      "perform",
+      "require",
+      "talk",
+      "tasks",
+      "you"
+    ],
+    "5": [
+      "ai",
+      "artificial",
+      "brain_machine_learning",
+      "branch",
+      "branch_artificial_intelligence_where",
+      "branch_of_artificial_intelligence",
+      "learning",
+      "machine",
+      "machine_learning",
+      "what",
+      "would"
+    ],
+    "6": [
+      "building",
+      "data",
+      "field",
+      "intelligence",
+      "learn",
+      "new",
+      "patterns",
+      "store",
+      "systems",
+      "where"
+    ],
+    "7": [
+      "government",
+      "own",
+      "region",
+      "territory"
+    ],
+    "8": [
+      "human",
+      "large",
+      "settlement"
+    ],
+    "9": [
+      "answers"
+    ]
+  },
+  "cluster_labels": {
+    "0": "Programming",
+    "1": "Answer Clean Easy",
+    "2": "Geography",
+    "3": "Connected Context Facts",
+    "4": "About Can Help",
+    "5": "Ai",
+    "6": "Ai",
+    "7": "Government Own Region",
+    "8": "Human Large Settlement.",
+    "9": "Answers."
+  }
+}

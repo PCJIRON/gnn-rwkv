@@ -1,0 +1,15 @@
+{
+  "source_file": "chat_corpus_500.txt",
+  "epochs": 15,
+  "max_sentences": null,
+  "vocab_size": 132,
+  "new_tokens": 132,
+  "reused_tokens": 0,
+  "dim": 96,
+  "layers": 2,
+  "num_nodes": 12,
+  "context": 128,
+  "tokenizer": "hybrid_v1",
+  "router": "plain_rwkv_gnn_lif_v1",
+  "reset_existing": true
+}

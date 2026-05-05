@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "generated": true,
+    "generator": "ralph-init",
+    "createdAt": "2026-05-05T12:54:57.230Z"
+  },
+  "items": [
+    {
+      "category": "functional",
+      "description": "Define the first PRD item for this project.",
+      "steps": [
+        "Add verification steps for this item."
+      ],
+      "passes": false
+    }
+  ]
+}

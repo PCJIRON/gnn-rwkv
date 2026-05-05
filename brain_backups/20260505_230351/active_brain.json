@@ -1,0 +1,14 @@
+{
+  "weights": "weights\\social_brain_20260505_173350.pth",
+  "vocab": "vocab.json",
+  "meta": "brain_meta.json",
+  "tokenizer": "hybrid_v1",
+  "dim": 192,
+  "layers": 4,
+  "num_nodes": 24,
+  "context": 256,
+  "vocab_size": 298,
+  "updated_at": "2026-05-05 17:33:50",
+  "source_file": "web_training_batch.txt",
+  "backup": "brain_backups\\20260505_173342"
+}
