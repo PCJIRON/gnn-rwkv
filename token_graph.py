@@ -22,6 +22,7 @@ import json
 import hashlib
 from collections import Counter, defaultdict
 from typing import Dict, List, Tuple, Optional
+import tiktoken
 
 import numpy as np
 import networkx as nx
@@ -73,17 +74,26 @@ class TokenGraph:
         # Cache
         self._hashes = {}
     
-    # =========================================================================
-    # TOKENIZER — Universal, no rules
-    # =========================================================================
+    _tokenizer = None
     
-    @staticmethod
-    def tokenize(text: str) -> List[str]:
+    @classmethod
+    def get_tokenizer(cls):
+        if cls._tokenizer is None:
+            cls._tokenizer = tiktoken.get_encoding("cl100k_base")
+        return cls._tokenizer
+        
+    @classmethod
+    def tokenize(cls, text: str) -> List[str]:
         """
-        Universal tokenizer. Works on ANY data.
-        Splits into words + punctuation. No POS, no language detection.
+        Universal Sub-word Tokenizer (BPE).
+        Uses OpenAI's tiktoken (cl100k_base) to split text into word + character pieces.
+        This provides morphological context (e.g., 'ghoomne' -> 'ghoom' + 'ne').
         """
-        return re.findall(r"\w+|[^\w\s]", text.lower())
+        tokenizer = cls.get_tokenizer()
+        # Encode to BPE token IDs
+        token_ids = tokenizer.encode(text)
+        # Convert each ID back to a string token (with replacement for partial bytes)
+        return [tokenizer.decode_bytes([t]).decode('utf-8', errors='replace') for t in token_ids]
     
     # =========================================================================
     # DATA INGESTION

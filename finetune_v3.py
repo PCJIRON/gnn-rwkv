@@ -223,4 +223,6 @@ if __name__ == "__main__":
         print(f"   [Output]: {generated_text}")
     
     # Normally you would save the weights back to the graph structure or a .pt file
-    print("\nGraph weights successfully fine-tuned! Ready for deployment.")
+    save_path = 'graphify-out/v3_trained.pt'
+    torch.save(model.state_dict(), save_path)
+    print(f"\nGraph weights successfully fine-tuned and saved to {save_path}! Ready for deployment.")

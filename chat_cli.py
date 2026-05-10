@@ -21,6 +21,13 @@ def main():
         graph = TokenGraph.load(graph_path)
         session = InfiniteContextGeneratorV3(graph, n_heads=4)
         print(f"Graph loaded successfully! (Vocab size: {graph.vocab_size} tokens)")
+        
+        trained_weights_path = 'graphify-out/v3_trained.pt'
+        if os.path.exists(trained_weights_path):
+            print(f"Found fine-tuned weights at {trained_weights_path}! Loading them for high-quality chat...")
+            session.rwkv.load_trained_weights(torch.load(trained_weights_path, weights_only=True))
+            print("Fine-tuned weights loaded!")
+            
         print("Ready! Type 'exit' or 'quit' to close.")
         print("Type '/reset' to clear conversation memory.")
         print("="*70)

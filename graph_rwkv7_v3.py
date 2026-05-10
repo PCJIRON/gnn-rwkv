@@ -226,7 +226,22 @@ class MultiHeadGraphWKV:
         if w_max > 0:
             W_out = W_out * scale / w_max
         self.W_out = torch.tensor(W_out + np.eye(self.dim) * 0.3, dtype=torch.float32)
-    
+        
+    def load_trained_weights(self, state_dict):
+        """Load fine-tuned weights from TrainableGraphRWKV."""
+        self.E = state_dict['E'].detach().cpu()
+        self.W_out = state_dict['W_out'].detach().cpu()
+        self.mix_ratio = state_dict['mix_ratio'].item()
+        
+        for h in range(self.n_heads):
+            self.heads[h]['proj'] = state_dict[f'head_projs.{h}'].detach().cpu()
+            self.heads[h]['W_r'] = state_dict[f'head_W_r.{h}'].detach().cpu()
+            self.heads[h]['W_w'] = state_dict[f'head_W_w.{h}'].detach().cpu()
+            self.heads[h]['W_k'] = state_dict[f'head_W_k.{h}'].detach().cpu()
+            self.heads[h]['W_v'] = state_dict[f'head_W_v.{h}'].detach().cpu()
+            self.heads[h]['W_a'] = state_dict[f'head_W_a.{h}'].detach().cpu()
+            self.heads[h]['W_g'] = state_dict[f'head_W_g.{h}'].detach().cpu()
+            
     def step(self, token_id: int) -> torch.Tensor:
         """
         Multi-head WKV step.
@@ -427,20 +442,11 @@ class InfiniteContextGeneratorV3:
     
     @staticmethod
     def _detokenize(tokens):
+        # BPE tokens from tiktoken already contain the correct whitespace (e.g. ' hello', 'world')
+        # We just need to join them directly.
         if not tokens:
             return ""
-        result = [tokens[0]]
-        punct = set('.,;:!?)]}\'"')
-        open_p = set('([{')
-        for t in tokens[1:]:
-            if t in punct:
-                result.append(t)
-            elif result and result[-1] in open_p:
-                result.append(t)
-            else:
-                result.append(' ')
-                result.append(t)
-        return ''.join(result)
+        return "".join(tokens)
     
     def session_stats(self):
         return {
