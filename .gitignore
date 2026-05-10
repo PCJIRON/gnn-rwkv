@@ -9,3 +9,9 @@ vocab.json
 # Ralph - AI agent loop files
 .ralph*
 .opencode/plugin/ralph-write-guardrail.ts
+
+# Graph-RWKV specific
+.env
+graphify-out/
+*.json
+*.log
